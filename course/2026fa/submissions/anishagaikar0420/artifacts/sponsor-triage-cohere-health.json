@@ -1,0 +1,83 @@
+{
+  "csv_rows": 30369,
+  "days_to_opt_end": 224,
+  "gates": [
+    {
+      "age_days": 388,
+      "detail": "newest funding date in data is 2025-09-26; 388 days before 2026-10-19. 'Recent' here means recent as of the snapshot, not today.",
+      "id": "G1",
+      "name": "snapshot-age",
+      "status": "flag"
+    },
+    {
+      "csv_line": 6084,
+      "detail": "matched CSV line 6084: COHERE HEALTH INC",
+      "id": "G2",
+      "name": "company-match",
+      "status": "pass"
+    },
+    {
+      "detail": "104 approvals on record",
+      "id": "G3",
+      "name": "sponsor-record",
+      "status": "pass"
+    },
+    {
+      "detail": "2 sponsored title(s) match role keywords; 1 not senior-flagged",
+      "id": "G4",
+      "name": "role-family",
+      "status": "pass"
+    },
+    {
+      "days": 224,
+      "detail": "224 days to opt_end (arithmetic only; no rule about cap-gap/STEM OPT is checked)",
+      "id": "G5",
+      "name": "timeline",
+      "status": "pass"
+    }
+  ],
+  "inputs": {
+    "company": "Cohere Health",
+    "csv": "data/80-days-to-stay/80-days-csv/mapped_student_employment_targets_v3.csv",
+    "keywords": [
+      "machine learning",
+      "data scientist",
+      "ai engineer",
+      "applied scientist",
+      "prompt",
+      "nlp",
+      "llm"
+    ],
+    "opt_end": "2027-05-31"
+  },
+  "record": {
+    "approval_rate": 98.1132075471698,
+    "company_name": "COHERE HEALTH INC",
+    "csv_line": 6084,
+    "latest_funding_amount": 89999876.0,
+    "latest_funding_date": "2025-05-07",
+    "latest_funding_stage": "Series C",
+    "median_salary_offered_all_sponsored_titles": 160000.0,
+    "role_family_matched_titles": [
+      "Senior Machine Learning DevOps Engineer",
+      "Machine Learning Engineer"
+    ],
+    "role_family_non_senior_titles": [
+      "Machine Learning Engineer"
+    ],
+    "state": "MA",
+    "top_job_titles_sponsored": [
+      "Engineering Manager",
+      "Senior Software Engineer, Platform",
+      "Senior Machine Learning DevOps Engineer",
+      "Software Engineer II",
+      "Machine Learning Engineer"
+    ],
+    "total_approvals": 104.0,
+    "total_denials": 2.0
+  },
+  "run_date": "2026-10-19",
+  "schema": "sponsor-triage/1",
+  "snapshot_newest_funding_date": "2025-09-26",
+  "status": "complete"
+}

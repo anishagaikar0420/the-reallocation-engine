@@ -1,0 +1,1042 @@
+{
+  "_tool": "skill-demand-monitor",
+  "_recipe": "recipes/skill-demand-monitor.md",
+  "generated": "2026-10-19",
+  "config": {
+    "min_sample": 20,
+    "coverage_floor": 0.4
+  },
+  "role_filter": null,
+  "taxonomy": "ai-engineering-skills@0.1.0",
+  "total_postings_ingested": 76,
+  "valid_count": 76,
+  "rejects": [],
+  "rejects_by_reason": {},
+  "min_sample_used": 20,
+  "min_sample_overridden_below_default": false,
+  "gates": {
+    "role_filter": {
+      "filter_applied": false,
+      "synonyms": [],
+      "matched_count": 76
+    }
+  },
+  "status": "ranked",
+  "candidate_count": 76,
+  "zero_hit_rate": 0.1053,
+  "low_coverage": false,
+  "skills": [
+    {
+      "id": "agentic_ai",
+      "label": "Agentic / AI agents",
+      "category": "llm_tooling",
+      "posting_count": 61,
+      "evidence": [
+        {
+          "job_id": "7848428003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7848428003"
+        },
+        {
+          "job_id": "7693298003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693298003"
+        },
+        {
+          "job_id": "8016709003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8016709003"
+        },
+        {
+          "job_id": "7693133003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693133003"
+        },
+        {
+          "job_id": "7735257003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735257003"
+        },
+        {
+          "job_id": "7999264003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7999264003"
+        },
+        {
+          "job_id": "7989009003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7989009003"
+        },
+        {
+          "job_id": "7763955003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7763955003"
+        },
+        {
+          "job_id": "8010189003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8010189003"
+        },
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        },
+        {
+          "job_id": "8013507003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8013507003"
+        },
+        {
+          "job_id": "7742105003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7742105003"
+        },
+        {
+          "job_id": "7984191003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7984191003"
+        },
+        {
+          "job_id": "7980595003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980595003"
+        },
+        {
+          "job_id": "7854046003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7854046003"
+        },
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "7766774003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7766774003"
+        },
+        {
+          "job_id": "7693376003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693376003"
+        },
+        {
+          "job_id": "7714429003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7714429003"
+        },
+        {
+          "job_id": "7855803003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7855803003"
+        },
+        {
+          "job_id": "7652126003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7652126003"
+        },
+        {
+          "job_id": "7989877003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7989877003"
+        },
+        {
+          "job_id": "7823167003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7823167003"
+        },
+        {
+          "job_id": "7764503003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7764503003"
+        },
+        {
+          "job_id": "7964418003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7964418003"
+        },
+        {
+          "job_id": "7780546003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7780546003"
+        },
+        {
+          "job_id": "7777131003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7777131003"
+        },
+        {
+          "job_id": "7726971003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7726971003"
+        },
+        {
+          "job_id": "8016891003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8016891003"
+        },
+        {
+          "job_id": "8004855003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8004855003"
+        },
+        {
+          "job_id": "8002135003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8002135003"
+        },
+        {
+          "job_id": "7992147003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992147003"
+        },
+        {
+          "job_id": "7992149003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992149003"
+        },
+        {
+          "job_id": "7983023003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003"
+        },
+        {
+          "job_id": "8013515003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8013515003"
+        },
+        {
+          "job_id": "7828045003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7828045003"
+        },
+        {
+          "job_id": "8001171003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8001171003"
+        },
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7930480003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7930480003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7763561003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7763561003"
+        },
+        {
+          "job_id": "7663856003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7663856003"
+        },
+        {
+          "job_id": "7983017003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983017003"
+        },
+        {
+          "job_id": "8002771003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8002771003"
+        },
+        {
+          "job_id": "7741530003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003"
+        },
+        {
+          "job_id": "8037645003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8037645003"
+        },
+        {
+          "job_id": "7703927003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7703927003"
+        },
+        {
+          "job_id": "7854316003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7854316003"
+        },
+        {
+          "job_id": "7979401003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7979401003"
+        },
+        {
+          "job_id": "7726958003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7726958003"
+        },
+        {
+          "job_id": "7805761003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7805761003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        },
+        {
+          "job_id": "7978386003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7978386003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        },
+        {
+          "job_id": "7726966003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7726966003"
+        },
+        {
+          "job_id": "7870427003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7870427003"
+        },
+        {
+          "job_id": "7797493003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7797493003"
+        },
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        },
+        {
+          "job_id": "7999533003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7999533003"
+        },
+        {
+          "job_id": "7893886003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7893886003"
+        },
+        {
+          "job_id": "7819635003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7819635003"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "label": "AWS",
+      "category": "cloud",
+      "posting_count": 27,
+      "evidence": [
+        {
+          "job_id": "7848428003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7848428003"
+        },
+        {
+          "job_id": "7693298003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693298003"
+        },
+        {
+          "job_id": "7693133003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693133003"
+        },
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        },
+        {
+          "job_id": "8005450003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8005450003"
+        },
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "7693376003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693376003"
+        },
+        {
+          "job_id": "7986948003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7986948003"
+        },
+        {
+          "job_id": "7652126003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7652126003"
+        },
+        {
+          "job_id": "7992147003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992147003"
+        },
+        {
+          "job_id": "7992149003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992149003"
+        },
+        {
+          "job_id": "7983023003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003"
+        },
+        {
+          "job_id": "8001171003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8001171003"
+        },
+        {
+          "job_id": "7979875003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7979875003"
+        },
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7930480003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7930480003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7663856003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7663856003"
+        },
+        {
+          "job_id": "7741530003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003"
+        },
+        {
+          "job_id": "7815472003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7815472003"
+        },
+        {
+          "job_id": "7805761003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7805761003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        },
+        {
+          "job_id": "7978386003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7978386003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        },
+        {
+          "job_id": "7726966003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7726966003"
+        },
+        {
+          "job_id": "7804368003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7804368003"
+        },
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "label": "SQL",
+      "category": "language",
+      "posting_count": 22,
+      "evidence": [
+        {
+          "job_id": "7693133003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693133003"
+        },
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        },
+        {
+          "job_id": "8005450003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8005450003"
+        },
+        {
+          "job_id": "7742105003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7742105003"
+        },
+        {
+          "job_id": "7984191003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7984191003"
+        },
+        {
+          "job_id": "7693376003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693376003"
+        },
+        {
+          "job_id": "7823182003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7823182003"
+        },
+        {
+          "job_id": "7986948003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7986948003"
+        },
+        {
+          "job_id": "7989877003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7989877003"
+        },
+        {
+          "job_id": "7823167003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7823167003"
+        },
+        {
+          "job_id": "8002135003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8002135003"
+        },
+        {
+          "job_id": "7992147003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992147003"
+        },
+        {
+          "job_id": "7992149003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992149003"
+        },
+        {
+          "job_id": "7983023003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7663856003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7663856003"
+        },
+        {
+          "job_id": "7983017003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983017003"
+        },
+        {
+          "job_id": "7741530003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003"
+        },
+        {
+          "job_id": "7979967003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7979967003"
+        },
+        {
+          "job_id": "7815472003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7815472003"
+        },
+        {
+          "job_id": "7978386003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7978386003"
+        },
+        {
+          "job_id": "7726966003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7726966003"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "category": "language",
+      "posting_count": 20,
+      "evidence": [
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        },
+        {
+          "job_id": "8005450003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8005450003"
+        },
+        {
+          "job_id": "7984191003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7984191003"
+        },
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "7693376003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693376003"
+        },
+        {
+          "job_id": "7986948003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7986948003"
+        },
+        {
+          "job_id": "7989877003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7989877003"
+        },
+        {
+          "job_id": "7992147003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992147003"
+        },
+        {
+          "job_id": "7992149003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992149003"
+        },
+        {
+          "job_id": "7983023003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003"
+        },
+        {
+          "job_id": "8001171003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8001171003"
+        },
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7663856003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7663856003"
+        },
+        {
+          "job_id": "7815472003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7815472003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        },
+        {
+          "job_id": "7978386003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7978386003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        },
+        {
+          "job_id": "7726966003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7726966003"
+        },
+        {
+          "job_id": "7797493003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7797493003"
+        }
+      ]
+    },
+    {
+      "id": "ci_cd",
+      "label": "CI/CD",
+      "category": "practice",
+      "posting_count": 17,
+      "evidence": [
+        {
+          "job_id": "7693298003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693298003"
+        },
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        },
+        {
+          "job_id": "7855803003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7855803003"
+        },
+        {
+          "job_id": "7979875003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7979875003"
+        },
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7930480003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7930480003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7763561003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7763561003"
+        },
+        {
+          "job_id": "7741530003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741530003"
+        },
+        {
+          "job_id": "7979401003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7979401003"
+        },
+        {
+          "job_id": "7805761003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7805761003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        },
+        {
+          "job_id": "7978386003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7978386003"
+        },
+        {
+          "job_id": "7804368003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7804368003"
+        },
+        {
+          "job_id": "7870427003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7870427003"
+        },
+        {
+          "job_id": "7797493003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7797493003"
+        },
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "label": "TypeScript",
+      "category": "language",
+      "posting_count": 7,
+      "evidence": [
+        {
+          "job_id": "7693298003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693298003"
+        },
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7930480003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7930480003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7805761003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7805761003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        },
+        {
+          "job_id": "7797493003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7797493003"
+        }
+      ]
+    },
+    {
+      "id": "spark",
+      "label": "Apache Spark",
+      "category": "data_infra",
+      "posting_count": 5,
+      "evidence": [
+        {
+          "job_id": "8005450003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8005450003"
+        },
+        {
+          "job_id": "7992147003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992147003"
+        },
+        {
+          "job_id": "7992149003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7992149003"
+        },
+        {
+          "job_id": "7983023003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7983023003"
+        },
+        {
+          "job_id": "7979875003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7979875003"
+        }
+      ]
+    },
+    {
+      "id": "distributed_systems",
+      "label": "Distributed systems",
+      "category": "practice",
+      "posting_count": 5,
+      "evidence": [
+        {
+          "job_id": "7855803003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7855803003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7870427003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7870427003"
+        },
+        {
+          "job_id": "7797493003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7797493003"
+        },
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        }
+      ]
+    },
+    {
+      "id": "embeddings",
+      "label": "Embeddings",
+      "category": "llm_tooling",
+      "posting_count": 5,
+      "evidence": [
+        {
+          "job_id": "7693133003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693133003"
+        },
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        },
+        {
+          "job_id": "7989877003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7989877003"
+        },
+        {
+          "job_id": "7663856003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7663856003"
+        },
+        {
+          "job_id": "7815472003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7815472003"
+        }
+      ]
+    },
+    {
+      "id": "azure",
+      "label": "Azure",
+      "category": "cloud",
+      "posting_count": 4,
+      "evidence": [
+        {
+          "job_id": "7693376003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693376003"
+        },
+        {
+          "job_id": "7652126003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7652126003"
+        },
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "label": "JavaScript",
+      "category": "language",
+      "posting_count": 4,
+      "evidence": [
+        {
+          "job_id": "7980642003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003"
+        },
+        {
+          "job_id": "7930480003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7930480003"
+        },
+        {
+          "job_id": "7813430003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7813430003"
+        },
+        {
+          "job_id": "7611463003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7611463003"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "label": "Retrieval-Augmented Generation (RAG)",
+      "category": "llm_tooling",
+      "posting_count": 4,
+      "evidence": [
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "7763561003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7763561003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        },
+        {
+          "job_id": "7870427003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7870427003"
+        }
+      ]
+    },
+    {
+      "id": "kafka",
+      "label": "Kafka",
+      "category": "data_infra",
+      "posting_count": 3,
+      "evidence": [
+        {
+          "job_id": "7930480003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7930480003"
+        },
+        {
+          "job_id": "7978386003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7978386003"
+        },
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        }
+      ]
+    },
+    {
+      "id": "llm_evals",
+      "label": "LLM evaluation / eval harnesses",
+      "category": "llm_tooling",
+      "posting_count": 3,
+      "evidence": [
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "8001171003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8001171003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        }
+      ]
+    },
+    {
+      "id": "nlp",
+      "label": "NLP",
+      "category": "domain",
+      "posting_count": 3,
+      "evidence": [
+        {
+          "job_id": "8005450003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8005450003"
+        },
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "label": "PyTorch",
+      "category": "ml_framework",
+      "posting_count": 3,
+      "evidence": [
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "8001171003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8001171003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        }
+      ]
+    },
+    {
+      "id": "terraform",
+      "label": "Terraform",
+      "category": "infra",
+      "posting_count": 3,
+      "evidence": [
+        {
+          "job_id": "7815472003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7815472003"
+        },
+        {
+          "job_id": "7804368003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7804368003"
+        },
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        }
+      ]
+    },
+    {
+      "id": "gcp",
+      "label": "GCP",
+      "category": "cloud",
+      "posting_count": 2,
+      "evidence": [
+        {
+          "job_id": "7693376003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693376003"
+        },
+        {
+          "job_id": "7652126003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7652126003"
+        }
+      ]
+    },
+    {
+      "id": "transformers",
+      "label": "Transformers",
+      "category": "ml_framework",
+      "posting_count": 2,
+      "evidence": [
+        {
+          "job_id": "7693174003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693174003"
+        },
+        {
+          "job_id": "7693289003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7693289003"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "label": "Docker",
+      "category": "infra",
+      "posting_count": 1,
+      "evidence": [
+        {
+          "job_id": "7735261003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7735261003"
+        }
+      ]
+    },
+    {
+      "id": "fine_tuning",
+      "label": "Fine-tuning",
+      "category": "llm_tooling",
+      "posting_count": 1,
+      "evidence": [
+        {
+          "job_id": "8005450003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8005450003"
+        }
+      ]
+    },
+    {
+      "id": "prompt_engineering",
+      "label": "Prompt engineering",
+      "category": "llm_tooling",
+      "posting_count": 1,
+      "evidence": [
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement_learning",
+      "label": "Reinforcement learning",
+      "category": "domain",
+      "posting_count": 1,
+      "evidence": [
+        {
+          "job_id": "7741414003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/7741414003"
+        }
+      ]
+    },
+    {
+      "id": "scikit_learn",
+      "label": "scikit-learn",
+      "category": "ml_framework",
+      "posting_count": 1,
+      "evidence": [
+        {
+          "job_id": "8001171003",
+          "source_url": "https://job-boards.greenhouse.io/coherehealth/jobs/8001171003"
+        }
+      ]
+    }
+  ]
+}

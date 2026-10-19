@@ -1,0 +1,12 @@
+{
+  "posting_file": "ds2.txt",
+  "fields": {
+    "title":     {"value": "Data Scientist II", "quote": "Data Scientist II, Cohere Health, Inc., Boston, Massachusetts (Remote)"},
+    "location":  {"value": "Boston, Massachusetts (Remote)", "quote": "Data Scientist II, Cohere Health, Inc., Boston, Massachusetts (Remote)"},
+    "remote":    {"value": "fully remote within the United States", "quote": "This is a fully remote position and may be performed from anywhere within the United States."},
+    "salary":    {"value": "$137,000.00 to $161,000.00 per year", "quote": "Salary range is $137,000.00 to $161,000.00 per year for a 40-hour work week."},
+    "seniority": {"value": "36 months of experience required (title says II, requirements are not entry-level)", "quote": "Must have a Master\u2019s degree in Data Science, Statistics, Biostatistics or related field (willing to accept foreign education equivalent) and 36 months of experience as Analyst or related position analyzing datasets."},
+    "skills":    {"value": "Python, PySpark, SQL, AWS SageMaker, Airflow, Tableau, LLMs", "quote": "Building scalable AWS Airflow pipelines to ingest, integrate, and transform terabytes of data using Python and PySpark and AWS S3 storage, and accelerate business decision-making in AWS Sagemaker;"},
+    "visa_sponsorship": {"value": "not stated", "quote": null}
+  }
+}
