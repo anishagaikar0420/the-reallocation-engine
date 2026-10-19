@@ -10,6 +10,8 @@ Two small tools for a student deciding whether one job posting is worth an appli
 |---|---|---|
 | `sponsor-triage.py` | Gates G1–G5 against `data/80-days-to-stay/80-days-csv/mapped_student_employment_targets_v3.csv` (stdlib only) | 0 ran · 2 a gate stopped the run |
 | `ground-fields.py` | Every extracted field needs a verbatim quote from the posting, or "not stated" with no quote | 0 all grounded · 1 any fail · 2 bad input |
+| `seniority-gate.py` / `.test.py` | G4b: largest minimum experience in a posting (9 tests) | 0 pass · 1 flag/none · 2 bad input |
+| `tricky-postings.test.py` + `fixtures/` | five synthetic tricky postings (6 cases), incl. 3 documented gaps | 0 pass |
 | `ground-fields.test.py` | 10 cases: 5 break attempts, 1 asserted known gap | 0 pass |
 
 ## Run

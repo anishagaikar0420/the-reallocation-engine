@@ -10,3 +10,4 @@ A follow-up to the first run: the one trap that the checklist could only catch b
 - **outputs:** `course/2026fa/submissions/anishagaikar0420/worked-run.md` §7.
 - **result:** TODO 5 (DEV) closed with evidence; G4b added. Role decision still needs-human.
 - **open issues:** posting still fetched by ad hoc `curl`; ceiling of 24 months is an authorial choice; known boilerplate false-flag; `ats:scan` and `bls:local-wage` still not run; no named human has cleared any gate.
+- **addendum:** added five synthetic tricky-posting fixtures + `tricky-postings.test.py` (6/6; mutation check made it fail 2, restored 6/6) and a pitch-lineage section (worked-run §8).

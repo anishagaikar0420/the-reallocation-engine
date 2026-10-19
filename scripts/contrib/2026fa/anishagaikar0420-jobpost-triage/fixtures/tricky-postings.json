@@ -1,0 +1,113 @@
+{
+  "schema": "tricky-postings/1",
+  "synthetic": true,
+  "fixtures": [
+    {
+      "id": "T1-no-salary-honest",
+      "note": "Posting states no pay. Honest 'not stated' must PASS; an invented salary must FAIL.",
+      "posting_text": "Northwind Labs (fictional) is hiring a Machine Learning Engineer in Austin, TX. You will train and evaluate ranking models. Requires Python and SQL. We offer health insurance.",
+      "fields": {
+        "salary": {
+          "value": "not stated",
+          "quote": null
+        },
+        "title": {
+          "value": "Machine Learning Engineer",
+          "quote": "hiring a Machine Learning Engineer in Austin"
+        }
+      },
+      "expect_fields": {
+        "salary": "PASS",
+        "title": "PASS"
+      },
+      "expect_seniority": "none"
+    },
+    {
+      "id": "T1b-invented-salary",
+      "note": "Model invents a salary and a quote that is not in the posting.",
+      "posting_text": "Northwind Labs (fictional) is hiring a Machine Learning Engineer in Austin, TX. You will train and evaluate ranking models. Requires Python and SQL.",
+      "fields": {
+        "salary": {
+          "value": "$120,000",
+          "quote": "Salary range $120,000 to $140,000"
+        }
+      },
+      "expect_fields": {
+        "salary": "FAIL"
+      },
+      "expect_seniority": "none"
+    },
+    {
+      "id": "T2-implied-skill",
+      "note": "Skill is implied, never named. A real quote attached to a loose claim PASSES: documented known gap, human must read.",
+      "posting_text": "Contoso Data (fictional) needs a Junior Applied Scientist. You will build retrieval pipelines over internal documents and measure answer quality weekly.",
+      "fields": {
+        "skills": {
+          "value": "RAG, LLM evaluation",
+          "quote": "build retrieval pipelines over internal documents"
+        }
+      },
+      "expect_fields": {
+        "skills": "PASS"
+      },
+      "expect_seniority": "none",
+      "human_must_read": [
+        "skills"
+      ]
+    },
+    {
+      "id": "T3-conflicting-seniority",
+      "note": "Title says Junior, requirements say 5+ years. Quote check passes; seniority gate must flag.",
+      "posting_text": "Fabrikam AI (fictional) seeks a Junior ML Engineer. Requirements: 5+ years of professional experience shipping ML systems. Bachelor's degree required.",
+      "fields": {
+        "seniority": {
+          "value": "Junior",
+          "quote": "seeks a Junior ML Engineer"
+        }
+      },
+      "expect_fields": {
+        "seniority": "PASS"
+      },
+      "expect_seniority": "flag",
+      "human_must_read": [
+        "seniority"
+      ]
+    },
+    {
+      "id": "T4-dollar-sign-not-salary",
+      "note": "A '$' appears only in a perk. Marking salary 'not stated' is correct, but the cue check refuses: over-trigger, human reads.",
+      "posting_text": "Adventure Works Robotics (fictional) is hiring an AI Engineer. Compensation is competitive. Perks include a $2,000 learning stipend and flexible hours.",
+      "fields": {
+        "salary": {
+          "value": "not stated",
+          "quote": null
+        }
+      },
+      "expect_fields": {
+        "salary": "FAIL"
+      },
+      "expect_seniority": "none",
+      "human_must_read": [
+        "salary"
+      ]
+    },
+    {
+      "id": "T5-remote-ambiguity",
+      "note": "'Remote-friendly culture' with three onsite days. A real quote supports the wrong claim 'Fully remote': PASSES (known gap).",
+      "posting_text": "Tailspin Health (fictional) hires a Prompt Engineer in Boston. We have a remote-friendly culture, but this role is onsite three days a week.",
+      "fields": {
+        "remote": {
+          "value": "Fully remote",
+          "quote": "remote-friendly culture"
+        }
+      },
+      "expect_fields": {
+        "remote": "PASS"
+      },
+      "expect_seniority": "none",
+      "human_must_read": [
+        "remote"
+      ]
+    }
+  ]
+}

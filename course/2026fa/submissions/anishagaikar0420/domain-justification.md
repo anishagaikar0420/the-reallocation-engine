@@ -31,3 +31,7 @@ Employers and recruiters know whether the company sponsors, whether the requisit
 ## Boundary (one line)
 
 The mode can say what the stored data and a live page say. It cannot say the company will sponsor *you*, and it does not touch immigration rules; those belong to the student's international-student office or an attorney.
+
+## Lineage from my pitch (JobPost Contracts)
+
+My pitch proposed a small library of prompt contracts that turns a job posting into a summary where every field carries a quote from the posting, plus five deliberately tricky test postings. This mode keeps that core as `ground-fields.py` and the tricky-posting tests, and adds the engine's sponsorship, liveness and timeline gates around it. Honest deviations from the pitch: (1) the pitch put real postings out of scope; the worked run uses one real public posting (not committed) because the assignment requires real data, and the tricky cases stay synthetic; (2) the pitch had five fields, the script checks seven; (3) the pitch said no career advice or ranking, and the mode keeps that: it refuses to emit a score; (4) the pitch's contracts were prompts, but here the checks are plain scripts and the model only drafts the extraction.

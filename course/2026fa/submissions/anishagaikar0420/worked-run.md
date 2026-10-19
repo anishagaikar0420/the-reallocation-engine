@@ -370,3 +370,22 @@ seniority-gate: status=pass largest_min=36mo allowed=36mo
 | The role is not entry level | **Inferred** | the human still reads the quote (G7/G8) |
 
 **Honest limits of v0.2.0:** numbers only ("seasoned" gives `none`, never a pass); company boilerplate can false-flag (tested known gap); not tried on any posting other than Cohere Health's. **Broke during testing:** none this round. The test run passed 9/9 on first execution, so I have not seen the harness fail here; I did not repeat the v0.1.0 mutant test on this script.
+
+## 8. Update v0.2.0 — pitch lineage and the five tricky postings
+
+The pitch promised "at least five deliberately tricky postings". They now exist as synthetic, fictional-company fixtures (`fixtures/tricky-postings.json`): no salary (honest and invented variants), an implied skill, a "Junior" title over "5+ years", a `$` that is a perk not a salary, and "remote-friendly" over three onsite days.
+
+```text
+$ python3 scripts/contrib/2026fa/anishagaikar0420-jobpost-triage/tricky-postings.test.py
+  ✓ T1-no-salary-honest: fields={'salary': 'PASS', 'title': 'PASS'} seniority=none
+  ✓ T1b-invented-salary: fields={'salary': 'FAIL'} seniority=none
+  ✓ T2-implied-skill: fields={'skills': 'PASS'} seniority=none  [human must read: skills]
+  ✓ T3-conflicting-seniority: fields={'seniority': 'PASS'} seniority=flag  [human must read: seniority]
+  ✓ T4-dollar-sign-not-salary: fields={'salary': 'FAIL'} seniority=none  [human must read: salary]
+  ✓ T5-remote-ambiguity: fields={'remote': 'PASS'} seniority=none  [human must read: remote]
+6 passed, 0 failed
+```
+
+**BREAK (mutation):** flipping the expected salary verdict in the fixture file made the harness report `4 passed, 2 failed`; restoring it gave 6/6 again. So the harness can fail.
+
+**What this proves and does not.** Machine results: the invented salary is refused (T1b); the 5-year requirement under a "Junior" title is flagged (T3). Three cases are **documented gaps** where the script's verdict is not the truth: T2 and T5 PASS although a human would say the claim is loose or wrong (a real quote attached to a wrong or loose claim), and T4 FAILS although "not stated" was right (the `$` cue over-triggers). In all three a person must read the quote. The six cases were written by me after seeing how the scripts behave, so they show the gaps rather than test the scripts blindly; all passed on first run.
